@@ -38,6 +38,40 @@ cd ProjectName
 npm start
 ```
 
+## Styling in React Native
+
+## Layout with Flexbox
+
+- `Flexbox` is all about organizing the child elements in **one dimentional** space.
+
+- In `react-native`, every view `align` and `position` its **child views** using `flexbox`.
+
+- By default, they are `aligned` in **column**.
+
+- You can change the direction of `direction` of the views alignment using `flexDirection` property.
+
+```
+flexDirection: 'row|column|row-reverse|column-reverse'
+```
+
+## Flex Axis
+
+- `main axis` : It is the direction of your flexbox.
+
+- `cross axis`: It is the axis `perpendicular` to the main axis.
+
+
+## Flex
+
+- It defines how your items will **fill** the available space along your **main axis**.
+
+- By default, if you don't spacify any flex property, it will only fill the space it needed for the content of child element on `main axis`.
+
+- And by default, it will fill the maximum space available on the `cross axis`
+
+
+
+<img width="679" alt="Screenshot 2022-09-25 at 1 29 49 PM" src="https://user-images.githubusercontent.com/204423/192134852-9e581f7e-2b55-48f7-9405-b885a7921e95.png">
 
 # Libraries
 

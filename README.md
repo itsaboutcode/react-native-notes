@@ -21,6 +21,23 @@
 
 - `reacti-native` spins a JS process as part of your app and facilitates the communication between your JS code and compiled native components (also called a bridge).
 
+## [Setting Up The Development Environment](https://reactnative.dev/docs/environment-setup)
+
+You have 2 methods to setup your development environment.
+
+1. Expo Go CLI (Third Party)
+2. React Native CLI (Provided by `react` team)
+
+Working with Expo Go CLI is easy as compare to work with React Native.
+
+### Creating React Native Project
+
+```
+npx create-expo-app ProjectName
+cd ProjectName
+npm start
+```
+
 
 # Libraries
 

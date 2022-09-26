@@ -73,6 +73,14 @@ flexDirection: 'row|column|row-reverse|column-reverse'
 
 <img width="679" alt="Screenshot 2022-09-25 at 1 29 49 PM" src="https://user-images.githubusercontent.com/204423/192134852-9e581f7e-2b55-48f7-9405-b885a7921e95.png">
 
+## Content Default Behaviour
+
+- When `flexDirection` is `column`, `height` is `auto` for inner containers (height of the content) and `width` is 100%.
+
+- When `flexDirection` is `row`, `height` and `width` is `auto` for inner containers (height of the content).
+
+
+
 # Libraries
 
 

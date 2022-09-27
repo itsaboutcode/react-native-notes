@@ -77,7 +77,13 @@ flexDirection: 'row|column|row-reverse|column-reverse'
 
 - When `flexDirection` is `column`, `height` is `auto` for inner containers (height of the content) and `width` is 100%.
 
+
+![flex-column](https://user-images.githubusercontent.com/204423/192433529-9e3cc423-3354-44f1-a0e3-9deb71b58f99.png)
+
 - When `flexDirection` is `row`, `height` and `width` is `auto` for inner containers (height of the content).
+
+
+![flex-row](https://user-images.githubusercontent.com/204423/192433559-b75db324-7034-49c3-a686-3085f25b9458.png)
 
 
 
@@ -89,3 +95,7 @@ flexDirection: 'row|column|row-reverse|column-reverse'
 - https://reactjs.org/
 
 - https://reactnative.dev/
+
+- https://snack.expo.dev/
+
+- https://expo.dev/

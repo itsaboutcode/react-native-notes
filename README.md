@@ -99,3 +99,11 @@ flexDirection: 'row|column|row-reverse|column-reverse'
 - https://snack.expo.dev/
 
 - https://expo.dev/
+
+- https://www.nativewind.dev/
+
+- https://redux.js.org/
+
+- https://reactnavigation.org/
+
+- https://www.sanity.io/

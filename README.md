@@ -74,6 +74,8 @@ npx react-native run-android
 
 You can do the step 2 and it will automatically execute step 1.
 
+To run the application on your physical device and enable the [developer mode](https://developer.android.com/studio/debug/dev-options) on your device and allow debugging.
+
 ## Styling in React Native
 
 ## Layout with Flexbox

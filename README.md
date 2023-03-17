@@ -30,12 +30,46 @@ You have 2 methods to setup your development environment.
 
 Working with Expo Go CLI is easy as compare to work with React Native.
 
-### Creating React Native Project
+### Creating Expo CLI Project and Running it
 
 ```
 npx create-expo-app ProjectName
 cd ProjectName
-npm start
+npm start                           # Running it
+```
+
+### Creating Native CLI Project
+
+- Make sure `react-native-cli` is not installed. If installed, uninstall it using following command.
+
+```
+npm uninstall -g react-native-cli @react-native-community/cli
+```
+
+Now create a project
+
+```
+npx react-native@latest init AwesomeProject
+```
+
+### Running your Native CLI application
+
+**Step 1:** Start Metro
+
+- It's a JavaScript **bundler**.
+
+- It "takes in an entry file and various options, and returns a single JavaScript file that includes all your code and its dependencies."
+
+```
+npx react-native start
+```
+
+**Step 2:** Start your application 
+
+- Android command
+
+```
+npx react-native run-android
 ```
 
 ## Styling in React Native

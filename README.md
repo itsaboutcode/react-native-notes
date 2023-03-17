@@ -102,6 +102,13 @@ const styles = StyleSheet.create({
 <View style={styles.container}></View>
 ```
 
+## Debugging using console and developer menu
+
+- console.log # Make sure you remove this before releasing the app because it impact the performance of your app.
+- On android device, shake it and it will show you developer menu
+- Android Simulator, CTRL/CMD+M
+- iOS Simulator, CTRL/CMD+D
+
 ## Layout with Flexbox
 
 - `Flexbox` is all about organizing the child elements in **one dimentional** space.

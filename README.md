@@ -72,6 +72,8 @@ npx react-native start
 npx react-native run-android
 ```
 
+You can do the step 2 and it will automatically execute step 1.
+
 ## Styling in React Native
 
 ## Layout with Flexbox

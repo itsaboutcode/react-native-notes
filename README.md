@@ -76,7 +76,31 @@ You can do the step 2 and it will automatically execute step 1.
 
 To run the application on your physical device and enable the [developer mode](https://developer.android.com/studio/debug/dev-options) on your device and allow debugging.
 
+## UI Conrols
+
+### View
+
+- It's like `div` in HTML
+
 ## Styling in React Native
+
+- All UI controls have a `style` prop, which you can use to to style UI controls.
+- You create a `Stylesheet` object
+
+```
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#0000',
+  },
+});
+```
+
+- Assing it to your respective control
+
+```
+<View style={styles.container}></View>
+```
 
 ## Layout with Flexbox
 
@@ -123,6 +147,8 @@ flexDirection: 'row|column|row-reverse|column-reverse'
 
 ![flex-row](https://user-images.githubusercontent.com/204423/192433559-b75db324-7034-49c3-a686-3085f25b9458.png)
 
+
+## ReactJS Required Knowledge For React Native
 
 
 # Libraries

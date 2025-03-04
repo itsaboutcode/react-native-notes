@@ -13,40 +13,40 @@
 
 - `react-native` library provides you [UI components](https://reactnative.dev/docs/components-and-apis) library. Which are later compiled into native platforms.
 
-- It also exposes platform-specific API to use the hardware of the device e.g., camera etc. 
+- It also exposes platform-specific API to use the hardware of the device, e.g., camera, etc. 
 
-- You should have knowledge `react` before you work on `react-native` but not required. You can learn the [core concepts](https://reactnative.dev/docs/intro-react) of `react` while learning `react-native` too.
+- You should know about `react` before you work on `react-native,` but it is not required. You can learn the [core concepts](https://reactnative.dev/docs/intro-react) of `react` while learning `react-native` too.
 
-- UI components/views are compiled to native views but JS logic is not compiled. It run in JS thread hosted by `react-native`
+- UI components/views are compiled to native views, but JS logic is not compiled. It runs in JS thread hosted by `react-native`
 
 - `reacti-native` spins a JS process as part of your app and facilitates the communication between your JS code and compiled native components (also called a bridge).
 
 ## [Setting Up The Development Environment](https://reactnative.dev/docs/environment-setup)
 
-You have 2 methods to setup your development environment.
+You have 2 methods to set up your development environment.
 
 1. Expo Go CLI (Third Party)
 2. React Native CLI (Provided by `react` team)
 
-Working with Expo Go CLI is easy as compare to work with React Native.
+Working with Expo Go CLI is easy compared to working with React Native.
 
-### Creating Expo CLI Project and Running it
+### Creating the Expo CLI Project and Running It
 
 ```
-npx create-expo-app ProjectName
+npx create-expo-app@latest ProjectName
 cd ProjectName
 npm start                           # Running it
 ```
 
 ### Creating Native CLI Project
 
-- Make sure `react-native-cli` is not installed. If installed, uninstall it using following command.
+- Make sure `react-native-cli` is not installed. If installed, uninstall it using the following command.
 
 ```
 npm uninstall -g react-native-cli @react-native-community/cli
 ```
 
-Now create a project
+Now, create a project
 
 ```
 npx react-native@latest init AwesomeProject
@@ -72,11 +72,11 @@ npx react-native start
 npx react-native run-android
 ```
 
-You can do the step 2 and it will automatically execute step 1.
+You can do step 2, and it will automatically execute step 1.
 
 To run the application on your physical device and enable the [developer mode](https://developer.android.com/studio/debug/dev-options) on your device and allow debugging.
 
-## UI Conrols
+## UI Controls
 
 ### View
 
@@ -102,22 +102,22 @@ const styles = StyleSheet.create({
 <View style={styles.container}></View>
 ```
 
-## Debugging using console and developer menu
+## Debugging using the console and developer menu
 
-- console.log # Make sure you remove this before releasing the app because it impact the performance of your app.
-- On android device, shake it and it will show you developer menu
+- console.log # Make sure you remove this before releasing the app because it impacts the performance of your app.
+- On an Android device, shake it, and it will show you the  developer menu
 - Android Simulator, CTRL/CMD+M
 - iOS Simulator, CTRL/CMD+D
 
 ## Layout with Flexbox
 
-- `Flexbox` is all about organizing the child elements in **one dimentional** space.
+- `Flexbox` is all about organizing the child elements in **one dimensional** space.
 
 - In `react-native`, every view `align` and `position` its **child views** using `flexbox`.
 
-- By default, they are `aligned` in **column**.
+- By default, they are `aligned` in the **column**.
 
-- You can change the direction of `direction` of the views alignment using `flexDirection` property.
+- You can change the direction of the `direction` of the views alignment using the `flexDirection` property.
 
 ```
 flexDirection: 'row|column|row-reverse|column-reverse'
@@ -125,7 +125,7 @@ flexDirection: 'row|column|row-reverse|column-reverse'
 
 ## Flex Axis
 
-- `main axis` : It is the direction of your flexbox.
+- `main axis`: It is the direction of your flexbox.
 
 - `cross axis`: It is the axis `perpendicular` to the main axis.
 
@@ -134,7 +134,7 @@ flexDirection: 'row|column|row-reverse|column-reverse'
 
 - It defines how your items will **fill** the available space along your **main axis**.
 
-- By default, if you don't spacify any flex property, it will only fill the space it needed for the content of child element on `main axis`.
+- By default, if you don't specify any flex property, it will only fill the space it needs for the content of cthe hild element on the `main axis`.
 
 - And by default, it will fill the maximum space available on the `cross axis`
 
